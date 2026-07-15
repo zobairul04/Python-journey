@@ -24,3 +24,16 @@ print(li)
 
 li.insert(0,69)
 print(li)
+
+li[0]= 96
+print(li)
+
+
+# tuples
+
+tu = ("a","k", "z")
+
+print(tu)
+
+print(tu.index("a"))
+print(tu.count("k"))
