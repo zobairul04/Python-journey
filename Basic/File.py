@@ -5,3 +5,8 @@ f.write("i dont know you \nare you a boy")
 f= open("test.txt","r")
 data= f.read()
 print(data)
+
+# deleting file dlt.txt
+
+import os
+os.remove("dlt.txt")
